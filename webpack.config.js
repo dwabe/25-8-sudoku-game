@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const OptimizeJsPlugin = require('optimize-js-plugin');
-alias: { 'react-dom'; '@hot-loader/react-dom'  };
 const plugins = [
   new HtmlWebpackPlugin({
     template: 'src/index.html',
@@ -52,6 +51,11 @@ module.exports = (env) => {
           ]
         }
       ]
+    },
+    resolve: {
+      alias: {
+        'react-dom': '@hot-loader/react-dom'
+      }
     },
     plugins
   }
