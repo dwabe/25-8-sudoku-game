@@ -5,6 +5,8 @@ import Tile from './Tile.js';
 class Board extends React.Component {
   numbers (val) {
     const tileValue = val.target.value;
+    const max = 9;
+    const maxLength = 1;
     const tileID = val.target.id;
     const newVal = tileValue <= max ? tileValue : parseInt(tileValue.toString().substring(0, maxLength));
 
