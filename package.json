@@ -22,7 +22,6 @@
   "author": "bebe",
   "license": "ISC",
   "dependencies": {
-    "fsevents": "^2.0.7",
     "sudoku-umd": "^1.0.1",
     "uuid": "^3.3.2"
   },
