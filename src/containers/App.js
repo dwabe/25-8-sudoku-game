@@ -1,10 +1,11 @@
 import React from 'react';
 import {hot} from 'react-hot-loader';
+
 import sudoku from 'sudoku-umd';
 
 import style from './App.css';
 
-import Board from '../components/Board/Board.js';
+import Board from '../components/Board.js';
 
 class App extends React.Component {
   constructor(props) {
