@@ -13,7 +13,7 @@ class Tile extends React.Component {
             value={num === '.' ? '' : num}
             onChange={this.props.action}
             className={num === '.' ? style.Enabled : style.Disabled}
-            autocomplete='off'
+            autoComplete='off'
         />
       </div>
     )
