@@ -34,8 +34,10 @@ body {
 button {
   margin: 10px;
   font-size: 15px;
+  padding: 3px;
   font-weight: 700;
-  border: none;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
 
 select {
